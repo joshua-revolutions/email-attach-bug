@@ -14,7 +14,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "1"
+      "bundleIdentifier": "au.com.emailtest"
     },
     "android": {
       "adaptiveIcon": {
@@ -27,6 +27,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera to let you pick images and videos."
+        }
+      ]
+    ]
   }
 }
